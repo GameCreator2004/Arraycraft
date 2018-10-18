@@ -109,7 +109,7 @@ pygame.init()
 # create new drawing suftace, mapwidth, mapheight
 DISPLAY_SURFACE = pygame.display.set_mode((MAPWIDTH*TILESIZE, MAPHEIGHT*TILESIZE + INVHEIGHT))
 # caption window
-pygame.display.set_caption('TileCraft')
+pygame.display.set_caption('Arraycraft')
 
 pygame.display.set_icon(pygame.image.load('Images/player.gif'))
 
@@ -143,7 +143,7 @@ for row in range(MAPHEIGHT):
         tilemap[row][column] = this_tile
 
 # load font style and size
-INVFONT = pygame.font.Font('Fonts/freesansbold.ttf', 18)
+INVFONT = pygame.font.Font('Fonts/PressStart2P.ttf', 18)
 
 # PLAYER
 PLAYER = pygame.image.load('Images/player.gif')
