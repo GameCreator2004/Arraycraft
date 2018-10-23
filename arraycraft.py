@@ -2,6 +2,7 @@
 # import sys module for exiting the window
 import pygame
 import random
+import sys
 # import some useful constants
 from pygame.locals import *
 
